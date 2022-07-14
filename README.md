@@ -7,4 +7,4 @@
 - movie-trailer
 - react-youtube
 
-* Deployed site [click here🔗](https://pages.github.com/)
+* Deployed site [click here🔗](https://netflix-clone-9ebfe.web.app/)
