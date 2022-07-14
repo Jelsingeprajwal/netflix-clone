@@ -10,7 +10,6 @@ function Banner() {
       const request = await axios.get(
         `https://api.themoviedb.org/3${requests.fetchNetflixOriginals}`
       );
-      // console.log(request.data.results);
       setMovie(
         request.data.results[
           Math.floor(Math.random() * request.data.results.length - 1)
@@ -24,7 +23,6 @@ function Banner() {
   function truncate(str, n) {
     return str?.length > n ? str.substr(0, n - 1) + "..." : str;
   }
-  console.log(movie);
   return (
     <header
       className="banner"
